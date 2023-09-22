@@ -9,13 +9,17 @@ import books from './css/books.jpg';
 function About() {
   return (
     <div className={styles.body}>
+
+
       <div className={styles['top-container']}>
         <img className={styles['top-cloud']} src={cloud} alt="cloud_png"/>
         <h1 className={styles.h1}>I'm Vansh</h1>
         <p className={styles.p}>a programmer</p>
         <img className={styles['bottom-cloud']} src={cloud} alt="cloud_png"/>
-        <img src={mountain} alt="mountain_png"/>
+        <img className={styles['mountain']} src={mountain} alt="mountain_png"/>
       </div>
+
+
       <div className={styles['middle-container']}>
         <div className={styles.profile}>
           <img src={vansh} alt="phot_png" height="200px"/>
@@ -45,14 +49,17 @@ function About() {
     <button type="button" className={`${styles.btn} btn btn-info`}><a className={styles.btn} href="mailto:name@email.com" target="_blank">CONTACT ME</a></button>
   </div>
 </div>
+</div>
 
-      </div>
+
       <div className={styles['bottom-container']}>
         <a className={styles['footer-link']} href="#" target="_blank">LinkedIn</a>
         <a className={styles['footer-link']} href="#" target="_blank">Twitter</a>
         <a className={styles['footer-link']} href="#" target="_blank">Website</a>
         <p className={styles['copyright']}>© Name Surname.</p>
       </div>
+
+
     </div>
   );
 }

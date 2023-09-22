@@ -97,3 +97,9 @@ p{
 a:hover{
     color: aliceblue;
 }
+
+@media (max-width: 500px){
+    .mountain{
+        width: 300px;
+    }
+}
